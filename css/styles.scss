@@ -18,3 +18,21 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.galleryimg {
+  width: 2000px;
+  height: auto;
+
+}
+
+
+
+.kaisei-harunoumi-regular {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brødtekst{
+  margin: 70px;
+}
