@@ -1,0 +1,7 @@
+
+body {background-color: coral;}
+
+.flex-row img {
+    max-width: 200%;
+    height: auto;
+}
