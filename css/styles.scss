@@ -18,3 +18,67 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.green-bar{
+  background:#cfe5a0;
+  height:18px;
+  width:100%;
+  max-width:1500px;
+  margin:18px auto;
+  border-radius:4px;
+}
+
+.responsive-img{
+  max-width: 100%;
+  height:auto;
+}
+
+
+.section-container{
+  display:flex;
+  gap:30px;
+  align-items:flex-start;
+}
+
+.text-box{
+  flex:1;
+  width:100%;
+}
+
+.map-box{
+  flex:1;
+}
+
+iframe{
+  width:100%;
+  height:350px;
+  border:0;
+}
+
+.section{
+  margin-bottom:40px;
+}
+
+.boks{
+  background-color:#2f3e50;
+  padding: 20px;
+  width:250px;
+  border-radius:8px;
+  color:white;
+  text-align:center;
+}
+
+.boks img{
+  width:100%;
+  border-radius:5px;
+}
+
+.container{
+  display: flex;
+  gap:30px;
+  justify-content:center;
+}
+
+.centeret-oversrkift{
+  text-align:center;
+}
