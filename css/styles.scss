@@ -220,4 +220,236 @@ h2{
    width: 50px;
    margin-right: inherit;
  }
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 30px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.site-titel-wrap{
+  flex: 1 1 auto;
+ text-align: center;
+  margin-top: 10px;
+}
+
+   .site-titel{
+     margin: -15px 0 8px;
+     font-family: Kaisei HarunoUmi;
+     font-size: 100px;
+     line-height: 0,9;
+     color:white;
+     letter-placing: 1px
+   }
+
+
+nav {
+  background-color: #273F50;
+  padding: 56px 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+.banner-image{
+  width: 100%;
+  height: auto;
+  display: block;
+
+ 
+}
+
+
+@media (max-width: 768px) {
+  .banner-image {
+  }
+
+  .site-titel {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.overskrift{
+  color:935E62;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.overskrift{
+  font-size: 50px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  color: 935E62;
+  font-family:sans-serif ;
+}
+
+.underskrift{
+  font-size: 20px ;
+  font-weight: 30;
+  text-align: center;
+  margin-top: 45px;
+  color: 935E62;
+  font-family:sans-serif ;
+
+}
+
+
+.underunder{
+  font-size: 50px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 150px;
+  color: 935E62;
+  font-family:sans-serif;
+}
+
+   .underp{
+
+    font-size: 20px ;
+    font-weight: 30;
+    text-align: center;
+    margin-top: 10px;
+    color: 935E62;
+    font-family:sans-serif;
+   }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+
+
+.card-label {
+  background-color: #b1d8b3;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.køge{
+  font-size: 50px ;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  color: 935E62;
+  font-family:sans-serif ;
+
+  }
+
+
+
+.under{
+  font-size: 20px ;
+  font-weight: 30;
+  text-align: center;
+  margin-top: 10px;
+  color: 935E62;
+  font-family:sans-serif ;
+  color:935E62;
+}
+.apel{
+  margin-top: 100px;
+
+}
+
+
+.footer {
+  background-color: #273F50
+;
+  padding: 30px 40px;
+  color: white;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  
+
+}
+
+.social-icons img {
+  width: 50px;
+  margin-right: inherit;
+}
+
+
+
 
