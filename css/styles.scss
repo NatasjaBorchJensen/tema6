@@ -1,4 +1,4 @@
- // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
@@ -10,7 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+        "farve": $cyan-400,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -22,112 +22,112 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
- :root{
-   --nav-bg: #273F50;
-   --text-light: #ffffff;
-   --accent: #cfe3c9;
-   --max-width: 1100px;
-   --title-font: 'Georgia', serif;
-   --ui-font: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
- }
+:root{
+  --nav-bg: #273F50;
+  --text-light: #ffffff;
+  --accent: #cfe3c9;
+  --max-width: 1100px;
+  --title-font: 'Georgia', serif;
+  --ui-font: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+}
 
- *{box-sizing:border-box}
+*{box-sizing:border-box}
 
- body{
-   margin:0;
-   font-family: var(--ui-font);
-   background:#faf7f4;
-   color:#222;
- }
-
-
- .site-header{
-   background: var(--nav-bg);
-   color: var(--text-light);
-   padding: 12px 16px;
-   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
- }
+body{
+  margin:0;
+  font-family: var(--ui-font);
+  background:#faf7f4;
+  color:#222;
+}
 
 
- .header-inner{
-   max-width: var(--max-width);
-   margin: 0 auto;
-   display: grid;
+.site-header{
+  background: var(--nav-bg);
+  color: var(--text-light);
+  padding: 12px 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
 
 
-   grid-template-columns: 90px 1fr 90px;
-   align-items: center;
-   padding: 12px 10px;
-   gap: 20px;
- }
+.header-inner{
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
 
 
- .logo-link{
-   grid-column: 1 / 2;
-   justify-self: start;
-   display: block;
- }
- .logo{
-   display: block;
-   width: 80px;
-   height: auto;
-   border-radius: 4px;
-   background: rgba(255,255,255,0.03);
-   padding: 6px;
- }
+  grid-template-columns: 90px 1fr 90px;
+  align-items: center;
+  padding: 12px 10px;
+  gap: 20px;
+}
 
 
- .site-title-wrap{
-   grid-column: 2 / 3;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 8px;
-   padding: 0;
- }
+.logo-link{
+  grid-column: 1 / 2;
+  justify-self: start;
+  display: block;
+}
+.logo{
+  display: block;
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.03);
+  padding: 6px;
+}
 
 
- .site-overskrift{
-   margin: 0;
-   font-family: var(Kaisei HarunoUmi);
-   font-size: 56px;
-   line-height: 1;
-   color: var(--text-light);
-   letter-spacing: 1px;
-   text-align: center;
- }
+.site-title-wrap{
+  grid-column: 2 / 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
 
 
- .main-nav ul{
-   list-style:none;
-   padding:0;
-   margin: 6px 0 0;
-   display:flex;
-   justify-content:center;
-   gap: 36px;
-   flex-wrap:wrap;
- }
+.site-overskrift{
+  margin: 0;
+  font-family: var(Kaisei HarunoUmi);
+  font-size: 56px;
+  line-height: 1;
+  color: var(--text-light);
+  letter-spacing: 1px;
+  text-align: center;
+}
 
- .main-nav a{
-   color: var(--text-light);
-   text-decoration:none;
-   font-size:20px;
-   padding:6px 2px;
-   display:inline-block;
-   transition: opacity .15s, transform .12s;
- }
 
- .main-nav a:hover,
- .main-nav a:focus{
-   opacity:0.85;
-   transform: translateY(-2px);
- }
+.main-nav ul{
+  list-style:none;
+  padding:0;
+  margin: 6px 0 0;
+  display:flex;
+  justify-content:center;
+  gap: 36px;
+  flex-wrap:wrap;
+}
 
- .main-nav a.active{
-   text-decoration: none;
-   font-weight:600;
- }
+.main-nav a{
+  color: var(--text-light);
+  text-decoration:none;
+  font-size:20px;
+  padding:6px 2px;
+  display:inline-block;
+  transition: opacity .15s, transform .12s;
+}
+
+.main-nav a:hover,
+.main-nav a:focus{
+  opacity:0.85;
+  transform: translateY(-2px);
+}
+
+.main-nav a.active{
+  text-decoration: none;
+  font-weight:600;
+}
 
 
 
@@ -141,49 +141,49 @@ h2{
   text-align: center;
 }
 
- .map-section iframe {
-   width: 100%;
-   height: 300px;
-   border: 0;
-   display: block;
- }
+.map-section iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  display: block;
+}
 
 .map-section{
   text-align: center;
 }
 
- .text-block h3{
-   text-align: center;
- }
+.text-block h3{
+  text-align: center;
+}
 
- .map-section{
-   padding-top: 30px;
- }
+.map-section{
+  padding-top: 30px;
+}
 
- .image-row {
-   display: flex;
-   gap: 20px;
-   align-items: stretch;
-   justify-content: center;
-   max-width: 1200px;
-   margin: 0px auto;
- }
+.image-row {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0px auto;
+}
 
- .image-row img {
-   width: 50%;
-   height: auto;
-   object-fit: cover;
-   display: block;
- }
+.image-row img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
- h3{
-   text-align: center;
-   margin-bottom: 20px;
- }
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
- .image-row{
-   padding-bottom: 0px;
- }
+.image-row{
+  padding-bottom: 0px;
+}
 
 .green-divider{
   width: 100%;
@@ -200,26 +200,26 @@ h2{
 
 
 
- .footer {
-   background-color: #273F50
- ;
-   padding: 30px 40px;
-   color: white;
-   font-size: 15px;
-   margin-top: 50px;
- }
+.footer {
+  background-color: #273F50
+;
+  padding: 30px 40px;
+  color: white;
+  font-size: 15px;
+  margin-top: 50px;
+}
 
- .footer-content {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   max-width: 1100px;
- }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+}
 
- .social-icons img {
-   width: 50px;
-   margin-right: inherit;
- }
+.social-icons img {
+  width: 50px;
+  margin-right: inherit;
+}
 nav ul {
   display: flex;
   gap: 20px;
@@ -242,18 +242,18 @@ nav ul {
 
 .site-titel-wrap{
   flex: 1 1 auto;
- text-align: center;
+  text-align: center;
   margin-top: 10px;
 }
 
-   .site-titel{
-     margin: -15px 0 8px;
-     font-family: Kaisei HarunoUmi;
-     font-size: 100px;
-     line-height: 0,9;
-     color:white;
-     letter-placing: 1px
-   }
+.site-titel{
+  margin: -15px 0 8px;
+  font-family: Kaisei HarunoUmi;
+  font-size: 100px;
+  line-height: 0.9;
+  color:white;
+  letter-placing: 1px
+}
 
 
 nav {
@@ -297,7 +297,7 @@ img{
   height: auto;
   display: block;
 
- 
+
 }
 
 
@@ -315,7 +315,7 @@ img{
   }
 }
 .overskrift{
-  color:935E62;
+  color:#935E62;
   font-size: 2rem;
   text-align: center;
 }
@@ -326,7 +326,7 @@ img{
   font-weight: 700;
   text-align: center;
   margin-top: 80px;
-  color: 935E62;
+  color: #935E62;
   font-family:sans-serif ;
 }
 
@@ -335,7 +335,7 @@ img{
   font-weight: 30;
   text-align: center;
   margin-top: 45px;
-  color: 935E62;
+  color: #935E62;
   font-family:sans-serif ;
 
 }
@@ -346,19 +346,19 @@ img{
   font-weight: 700;
   text-align: center;
   margin-top: 150px;
-  color: 935E62;
+  color: #935E62;
   font-family:sans-serif;
 }
 
-   .underp{
+.underp{
 
-    font-size: 20px ;
-    font-weight: 30;
-    text-align: center;
-    margin-top: 10px;
-    color: 935E62;
-    font-family:sans-serif;
-   }
+  font-size: 20px ;
+  font-weight: 30;
+  text-align: center;
+  margin-top: 10px;
+  color: #935E62;
+  font-family:sans-serif;
+}
 
 .card-grid {
   display: grid;
@@ -369,7 +369,6 @@ img{
 }
 
 .card img {
-  width: 100%;
   height: 450px;
   width: 300px;
   object-fit: cover;
@@ -405,10 +404,10 @@ img{
   font-weight: 700;
   text-align: center;
   margin-top: 50px;
-  color: 935E62;
+  color: #935E62;
   font-family:sans-serif ;
 
-  }
+}
 
 
 
@@ -417,9 +416,9 @@ img{
   font-weight: 30;
   text-align: center;
   margin-top: 10px;
-  color: 935E62;
+  color: #935E62;
   font-family:sans-serif ;
-  color:935E62;
+  color: #935E62;
 }
 .apel{
   margin-top: 100px;
@@ -441,7 +440,7 @@ img{
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  
+
 
 }
 
@@ -449,7 +448,6 @@ img{
   width: 50px;
   margin-right: inherit;
 }
-
 
 
 
