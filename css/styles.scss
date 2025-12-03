@@ -25,6 +25,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 }
 
+.paddingting{
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
 
 
 .kaisei-harunoumi-regular {
@@ -35,4 +39,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .brødtekst{
   margin: 70px;
+}
+
+.overlay-box {
+  background-color: #354854;      /* exact bluish-grey color from your screenshot */
+  width: 85%;                     /* wider than the text, matches picture */
+  border-radius: 12px;            /* rounded corners like your screenshot */
+  position: absolute;
+  left: 50%;
+  bottom: -120px;                 /* moves box downward to overlap image */
+  transform: translateX(-50%);
 }
